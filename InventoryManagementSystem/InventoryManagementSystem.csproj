@@ -46,123 +46,146 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CategoryForm.cs">
+    <Compile Include="Views\CategoryForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CategoryForm.Designer.cs">
+    <Compile Include="Views\CategoryForm.Designer.cs">
       <DependentUpon>CategoryForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="CategoryModuleForm.cs">
+    <Compile Include="Views\CategoryModuleForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CategoryModuleForm.Designer.cs">
+    <Compile Include="Views\CategoryModuleForm.Designer.cs">
       <DependentUpon>CategoryModuleForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controller\CategoryController.cs" />
+    <Compile Include="Controller\CategoryModuleController.cs" />
+    <Compile Include="Controller\CustomerController.cs" />
+    <Compile Include="Controller\CustomerModelController.cs" />
+    <Compile Include="Controller\LoginController.cs" />
+    <Compile Include="Controller\MainController.cs" />
+    <Compile Include="Controller\OrderController.cs" />
+    <Compile Include="Controller\OrderController1.cs" />
+    <Compile Include="Controller\ProductController.cs" />
+    <Compile Include="Controller\ProductsModuleController.cs" />
+    <Compile Include="Controller\UserController.cs" />
+    <Compile Include="Controller\UsetModuleController.cs" />
     <Compile Include="CustomerButton.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="CustomerButton.Designer.cs">
       <DependentUpon>CustomerButton.cs</DependentUpon>
     </Compile>
-    <Compile Include="CustomerForm.cs">
+    <Compile Include="Views\CustomerForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CustomerForm.Designer.cs">
+    <Compile Include="Views\CustomerForm.Designer.cs">
       <DependentUpon>CustomerForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="CustomerModuleForm.cs">
+    <Compile Include="Views\CustomerModuleForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CustomerModuleForm.Designer.cs">
+    <Compile Include="Views\CustomerModuleForm.Designer.cs">
       <DependentUpon>CustomerModuleForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginForm.cs">
+    <Compile Include="Views\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginForm.Designer.cs">
+    <Compile Include="Views\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainForm.cs">
+    <Compile Include="Views\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
+    <Compile Include="Views\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="OrderForm.cs">
+    <Compile Include="Models\CategoryModel1.cs" />
+    <Compile Include="Models\CategoryModel.cs" />
+    <Compile Include="Models\CustomerModel.cs" />
+    <Compile Include="Models\CustomerModel1.cs" />
+    <Compile Include="Models\OrderModel.cs" />
+    <Compile Include="Models\OrderModel1.cs" />
+    <Compile Include="Models\ProductModel.cs" />
+    <Compile Include="Models\ProductModule1.cs" />
+    <Compile Include="Models\Login.cs" />
+    <Compile Include="Models\UserModel.cs" />
+    <Compile Include="Models\UserModel1.cs" />
+    <Compile Include="Views\OrderForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OrderForm.Designer.cs">
+    <Compile Include="Views\OrderForm.Designer.cs">
       <DependentUpon>OrderForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="OrderModuleForm.cs">
+    <Compile Include="Views\OrderModuleForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OrderModuleForm.Designer.cs">
+    <Compile Include="Views\OrderModuleForm.Designer.cs">
       <DependentUpon>OrderModuleForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductForm.cs">
+    <Compile Include="Views\ProductForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductForm.Designer.cs">
+    <Compile Include="Views\ProductForm.Designer.cs">
       <DependentUpon>ProductForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductModuleForm.cs">
+    <Compile Include="Views\ProductModuleForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductModuleForm.Designer.cs">
+    <Compile Include="Views\ProductModuleForm.Designer.cs">
       <DependentUpon>ProductModuleForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserForm.cs">
+    <Compile Include="Views\UserForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UserForm.Designer.cs">
+    <Compile Include="Views\UserForm.Designer.cs">
       <DependentUpon>UserForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserModuleForm.cs">
+    <Compile Include="Views\UserModuleForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UserModuleForm.Designer.cs">
+    <Compile Include="Views\UserModuleForm.Designer.cs">
       <DependentUpon>UserModuleForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="WelcomeForm.cs">
+    <Compile Include="Views\WelcomeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="WelcomeForm.Designer.cs">
+    <Compile Include="Views\WelcomeForm.Designer.cs">
       <DependentUpon>WelcomeForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="CategoryForm.resx">
+    <EmbeddedResource Include="Views\CategoryForm.resx">
       <DependentUpon>CategoryForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CategoryModuleForm.resx">
+    <EmbeddedResource Include="Views\CategoryModuleForm.resx">
       <DependentUpon>CategoryModuleForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CustomerButton.resx">
       <DependentUpon>CustomerButton.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CustomerForm.resx">
+    <EmbeddedResource Include="Views\CustomerForm.resx">
       <DependentUpon>CustomerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CustomerModuleForm.resx">
+    <EmbeddedResource Include="Views\CustomerModuleForm.resx">
       <DependentUpon>CustomerModuleForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginForm.resx">
+    <EmbeddedResource Include="Views\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
+    <EmbeddedResource Include="Views\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OrderForm.resx">
+    <EmbeddedResource Include="Views\OrderForm.resx">
       <DependentUpon>OrderForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OrderModuleForm.resx">
+    <EmbeddedResource Include="Views\OrderModuleForm.resx">
       <DependentUpon>OrderModuleForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductForm.resx">
+    <EmbeddedResource Include="Views\ProductForm.resx">
       <DependentUpon>ProductForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductModuleForm.resx">
+    <EmbeddedResource Include="Views\ProductModuleForm.resx">
       <DependentUpon>ProductModuleForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -174,13 +197,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UserForm.resx">
+    <EmbeddedResource Include="Views\UserForm.resx">
       <DependentUpon>UserForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserModuleForm.resx">
+    <EmbeddedResource Include="Views\UserModuleForm.resx">
       <DependentUpon>UserModuleForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WelcomeForm.resx">
+    <EmbeddedResource Include="Views\WelcomeForm.resx">
       <DependentUpon>WelcomeForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -196,5 +219,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
